@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Первый уровень -->
+ 
+<div class="firstLevel-secondTask-wrapper">
+    <div class="container">
+        <div class="header-window">
+            <div class="inf-buttons">
+                <a href="./start.html" class="inf-buttons-style inf-blocks-style">Exit</a>
+                <a href="#popup_options" class="inf-buttons-style inf-blocks-style">Information</a>
+            </div>
+            <div class="user-name-result">
+                <div class="userName inf-blocks-style"></div>
+                <div class="userCounter inf-blocks-style">
+                    <i class="fa-solid fa-cake-candles cake" id="cake-one"></i>
+                    <i class="fa-solid fa-cake-candles cake" id="cake-two"></i>
+                    <i class="fa-solid fa-cake-candles cake" id="cake-three"></i>
+                </div>
+            </div>
+        </div>
+        <div id="firstLevel-secondTask-infblock">Assemble a snowman from the available figures</div> 
+        <div class="first-level-body-secondTask">
+
+            <div class="first-level-body-details-secondTask-left">
+                <div class="largest-circle-parent">
+                    <div class="blue-circle-largest blue-circle circle elem-drag parentElem" draggable="true">
+                        <span>Big blue circle</span>
+                    </div>
+                </div>
+                    <div class="orange-trapezoid-parent">
+                        <div class="orange-trapezoid trapezoid elem-drag parentElem" draggable="true">
+                            <span>Orange trapezoid</span>
+                        </div>
+                    </div>
+            </div>
+            <div class="first-level-body-secondTask-image offsetParent">
+                    <div class="rightHaydSnowman circle"></div>
+                    <div class="white-trapezoid trapezoid js-elem offsetParent1"></div>
+                    <div class="face-snowman">
+                        <img src="../images/snowman.png" alt="snowman">
+                    </div>
+                    <div class="white-circle-small small circle js-elem offsetParent3"></div>
+                    <div class="white-circle-largest blue-circle-largest circle js-elem offsetParent2"></div>
+                    <div class="leftHaydSnowman circle"></div>
+            </div>
+            <div class="first-level-body-details-secondTask-right">
+                <div class="small-circle-parent">
+                    <div class="blue-circle-small blue-circle small circle elem-drag parentElem" draggable="true">
+                        <span>Small blue circle</span>
+                    </div>
+                </div>
+                <div class="button-parent">
+                    <div class="demo-round">
+                        <div>
+                            <a href="#" class="round red" id="button_firstLevel">Done
+                                <span class="round" id="buttonSpan_firstLevel">
+                                    <div class="right">
+                                        <i class="fa-solid fa-cake-candles cake"></i>
+                                        <p>Yes! You are right!</p>
+                                    </div>
+                                    <div class="try-again">
+                                        <p>Try again and you'll learn!</p>
+                                    </div>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<canvas class="confetti" id="canvas"></canvas>
+
+    <!-- Модальное окно информации -->
+
+    <div id="popup_options" class="popup_options">
+        <div class="popup_options_body">
+            <div class="popup_options_content">
+                <a href="#" class="popup_options_close">X</a>
+                <div class="popup_options_title">INFORMATION</div>
+                <div class="popup_options_text">Hello! In this game you can learn letters, numbers and shapes. You need to go through three levels and then you can get a cartoon as a gift!</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/ef9f0ca4f4.js" crossorigin="anonymous"></script>
+</body>
+</html>

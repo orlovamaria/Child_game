@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Первое задание второго уровня -->
+
+<div class="second-level">
+    <div class="container">
+        <div class="header-window">
+            <div class="inf-buttons">
+                <a href="./start.html" class="inf-buttons-style inf-blocks-style">Exit</a>
+                <a href="#popup_options" class="inf-buttons-style inf-blocks-style">Information</a>
+            </div>
+            <div class="user-name-result">
+                <div class="userName inf-blocks-style"></div>
+                <div class="userCounter inf-blocks-style">
+                    <i class="fa-solid fa-cake-candles cake" id="cake-one"></i>
+                    <i class="fa-solid fa-cake-candles cake" id="cake-two"></i>
+                    <i class="fa-solid fa-cake-candles cake" id="cake-three"></i>
+                </div>
+            </div>
+        </div>
+        <div class="second-level-firstTask-InfBlock">Choose the correct answer</div>
+        <div class="second-level-body">
+            <div class="second-level-blocks-wrapper">
+                <div class="second-level-blocks">
+                    <div class="numbers">1</div>
+                    <div class="picture">
+                        <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                    </div>
+                </div> 
+            </div>
+            <div class="second-level-blocks-wrapper">
+                <div class="second-level-blocks">
+                    <div class="plus">
+                        <img src="../images/imgonline-com-ua-Resize-1KUBI7ihSObOUIRC.png" alt="plus">
+                    </div>
+                </div> 
+            </div>
+            <div class="second-level-blocks-wrapper">
+                <div class="second-level-blocks">
+                    <div class="numbers">3</div> 
+                    <div class="pictures">
+                        <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                        <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                        <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                    </div>
+                </div> 
+            </div>
+            <div class="second-level-blocks-wrapper">
+                <div class="second-level-blocks">
+                    <div class="equality">
+                        <img src="../images/imgonline-com-ua-Resize-Dzgx7JpZno.png" alt="equality">
+                    </div>
+                </div> 
+            </div>
+            <div class="second-level-blocks-result-wrapper">
+                <div class="t3d correct-answer">
+                    <div class="second-level-blocks rotate" id="correct-answer">
+                        <div class="img">
+                            <div class="numbers">4</div>
+                            <div class="pictures">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                            </div>
+                        </div>
+                        <div class="super">
+                            <i class="fa-solid fa-cake-candles cake"></i>
+                            <p>Yes, you are right!!!</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="t3d wrong-answer">
+                    <div class="second-level-blocks rotate wrong-answer-rotate">
+                        <div class="img">
+                            <div class="numbers">5</div>
+                            <div class="pictures">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                            </div>
+                        </div>
+                        <div class="no-super">
+                            <img src="../images/free-png.ru-21.png" alt="smile">
+                            <p>Try again and you'll learn!</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="t3d wrong-answer">
+                    <div class="second-level-blocks rotate wrong-answer-rotate">
+                        <div class="img">
+                            <div class="numbers">6</div>
+                            <div class="pictures" id="six-pictures">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                                <img src="../images/imgonline-com-ua-Resize-We1c4OO8EK.png" alt="apple">
+                            </div>
+                        </div>
+                        <div class="no-super">
+                            <img src="../images/free-png.ru-21.png" alt="smile">
+                            <p>Try again and you'll learn!</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<canvas class="confetti" id="canvas"></canvas>
+
+<!-- Модальное окно информации -->
+
+<div id="popup_options" class="popup_options">
+    <div class="popup_options_body">
+        <div class="popup_options_content">
+            <a href="#" class="popup_options_close">X</a>
+            <div class="popup_options_title">INFORMATION</div>
+            <div class="popup_options_text">Hello! In this game you can learn letters, numbers and shapes. You need to go through three levels and then you can get a cartoon as a gift!</div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://kit.fontawesome.com/ef9f0ca4f4.js" crossorigin="anonymous"></script>
+</body>
+</html>
